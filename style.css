@@ -1,11 +1,12 @@
 body, html {
     width: 100%;
     height: 100%;
+    font-family: 'Roboto', sans-serif !important;
 }
 .container-fluid.nav-bar{
     padding-right: 0px;
     padding-left: 0px;
-    background-image: url(bg-masthead.jpg);
+    background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.5) 100%), url(bg-masthead.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -28,3 +29,7 @@ body, html {
     margin-left: 0px;
     margin-right: 0px;
 }
+#time{
+    color: white;
+}
+
