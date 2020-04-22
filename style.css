@@ -28,9 +28,3 @@ body, html {
     margin-left: 0px;
     margin-right: 0px;
 }
-
-@media (min-width: 992px)
-#mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
-}
