@@ -26,5 +26,28 @@ body, html {
 }
 .navbar.navbar-expand-lg.navbar-light.fixed-top.py-3{
     padding: 0 10px 0 10px;
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
 }
-
+.my-4{
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+}
+.clickme{
+    background-color: green;
+}
+#about{
+    background-color: #f4623a !important;
+    padding: 8rem 0;
+}
+#hr2{
+    border-color: #fff !important;
+}
+#btn3{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}

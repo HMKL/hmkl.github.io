@@ -5,7 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+  
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -14,8 +15,8 @@
   </head>
   <body onload="startTime()">
       
-    <div class="container-fluid nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 " id="mainNav">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -52,45 +53,86 @@
             </div>
           </nav>
     </div>
-    <div class="contaniner-fluid">
-        <p id="demo"></p>
-        <div class="row first">
+
+           
+          
+
+    <div class="container-fluid nav-bar">
+       <div class="row h-100 align-items-center justify-content-center text-center mr-0 ml-0 display-4">
+         <div class="col-lg-8 align-self-end">
+          <h2 class="text-uppercase text-white font-weight-bold">Welcome</h2>
+          <hr class="my-4">
+           <h2 class="text-uppercase text-white font-weight-bold">This is a simple hero unit.</h2>
+           <a class="btn btn-primary btn-lg clickme" id="btn1" href="#about" role="button">Find More</a>
+         </div>
+         <div class="col-8"></div>
+       
+       </div>
+    </div>
+   
+    <section class="page-section bg-primary text-center" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Hello</h2>
+          <hr class="divider light my-4" id="hr2">
+          <p class="text-white-50 mb-4">Lorem ipsum dolor sit amet consectetur.</p>
+          <button type="button" class="btn btn-light btn-lg" id="btn3">GET STARTED!</button>
+        </div>
+        </div>
+      </div>
+    </section> 
+
+
+    <div class="contaniner-fluid" id="test">
+        <div class="row first text-center">
             <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse delectus doloribus minus nobis et vero. Magnam beatae inventore, delectus, nihil incidunt expedita, voluptatem ea non assumenda animi ipsum veritatis.
-                Earum facere in alias, itaque natus illum pariatur qui corrupti modi sequi eveniet, repellendus vero est minima quos necessitatibus quo consectetur minus accusantium quod dolorem inventore laborum dignissimos! Praesentium, qui.
-                Est pariatur architecto laudantium tempore ipsa eaque nisi dicta incidunt? Ducimus voluptatibus corporis adipisci, itaque iure magni quibusdam harum neque laborum saepe, dolorum quam quia alias officia suscipit! Quas, alias?
-                Quae alias sequi recusandae! Nihil officia, similique quod ad in nisi itaque quaerat laudantium magni error quis necessitatibus! In rem repudiandae consequuntur, voluptate ab culpa amet est labore ducimus delectus?</p>
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  </div>
             </div>
             <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus culpa, nemo necessitatibus officia in doloremque animi fugit ducimus repellat placeat corporis incidunt cum rem at, reiciendis quae id quas.
-                Quasi similique cumque fuga rem saepe quidem molestiae! Nihil excepturi vel, enim corrupti sed expedita quis? Rerum eum iste totam ipsa doloribus explicabo, illo maxime minus ea aut fuga iure.
-                Nihil labore, distinctio molestiae doloribus sed harum explicabo minima sint, aspernatur, aut velit? Doloribus dolorem non quos molestias, dolore sed sequi? Illo, consequuntur praesentium. Consectetur necessitatibus quod rerum. Nobis, culpa.
-                Corporis laudantium tempore dicta nam non, necessitatibus sit quia veniam eveniet aliquam iste obcaecati. Ea, cupiditate delectus sed sint rerum impedit, nihil dolores maiores, omnis similique accusamus velit autem ut!
-                Labore voluptatum neque culpa eum exercitationem fuga. Delectus dignissimos, magnam illum rem tempora libero modi fugit dolor quia temporibus exercitationem quasi sit a aliquid corrupti, nisi hic tempore. Saepe, ab!
-                Voluptate, voluptates rerum. Nobis optio deleniti alias laboriosam nam natus quaerat dolore ducimus laborum nemo. Harum dolores in eaque cum velit quas vel, deserunt qui optio. Alias sed velit dolorum?
-                Dicta quos dolores odio sint recusandae atque veniam repudiandae, hic aspernatur. Mollitia nobis iste debitis iure laborum inventore et quos. Aliquid, quo nisi? Nam inventore quas nulla necessitatibus sunt laboriosam!
-                Eius fugiat suscipit aut consequuntur fuga consectetur eligendi hic delectus! Cumque quas error molestiae nobis natus, doloribus officia. Consequuntur aperiam quibusdam aliquam ipsam quae nihil sequi explicabo harum tempora esse.</p>
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  </div>
             </div>
         </div>
-        <div class="row first">
+        <div class="row first text-center">
             <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse delectus doloribus minus nobis et vero. Magnam beatae inventore, delectus, nihil incidunt expedita, voluptatem ea non assumenda animi ipsum veritatis.
-                Earum facere in alias, itaque natus illum pariatur qui corrupti modi sequi eveniet, repellendus vero est minima quos necessitatibus quo consectetur minus accusantium quod dolorem inventore laborum dignissimos! Praesentium, qui.
-                Est pariatur architecto laudantium tempore ipsa eaque nisi dicta incidunt? Ducimus voluptatibus corporis adipisci, itaque iure magni quibusdam harum neque laborum saepe, dolorum quam quia alias officia suscipit! Quas, alias?
-                Quae alias sequi recusandae! Nihil officia, similique quod ad in nisi itaque quaerat laudantium magni error quis necessitatibus! In rem repudiandae consequuntur, voluptate ab culpa amet est labore ducimus delectus?</p>
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  </div>
             </div>
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus culpa, nemo necessitatibus officia in doloremque animi fugit ducimus repellat placeat corporis incidunt cum rem at, reiciendis quae id quas.
-                Quasi similique cumque fuga rem saepe quidem molestiae! Nihil excepturi vel, enim corrupti sed expedita quis? Rerum eum iste totam ipsa doloribus explicabo, illo maxime minus ea aut fuga iure.
-                Nihil labore, distinctio molestiae doloribus sed harum explicabo minima sint, aspernatur, aut velit? Doloribus dolorem non quos molestias, dolore sed sequi? Illo, consequuntur praesentium. Consectetur necessitatibus quod rerum. Nobis, culpa.
-                Corporis laudantium tempore dicta nam non, necessitatibus sit quia veniam eveniet aliquam iste obcaecati. Ea, cupiditate delectus sed sint rerum impedit, nihil dolores maiores, omnis similique accusamus velit autem ut!
-                Labore voluptatum neque culpa eum exercitationem fuga. Delectus dignissimos, magnam illum rem tempora libero modi fugit dolor quia temporibus exercitationem quasi sit a aliquid corrupti, nisi hic tempore. Saepe, ab!
-                Voluptate, voluptates rerum. Nobis optio deleniti alias laboriosam nam natus quaerat dolore ducimus laborum nemo. Harum dolores in eaque cum velit quas vel, deserunt qui optio. Alias sed velit dolorum?
-                Dicta quos dolores odio sint recusandae atque veniam repudiandae, hic aspernatur. Mollitia nobis iste debitis iure laborum inventore et quos. Aliquid, quo nisi? Nam inventore quas nulla necessitatibus sunt laboriosam!
-                Eius fugiat suscipit aut consequuntur fuga consectetur eligendi hic delectus! Cumque quas error molestiae nobis natus, doloribus officia. Consequuntur aperiam quibusdam aliquam ipsam quae nihil sequi explicabo harum tempora esse.</p>
+            <div class="col-6" id="jum">
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  </div>
             </div>
+            
         </div>
     </div>
+
+
+
+   
+
+   
 
 
     
@@ -108,7 +150,7 @@
     <script src="timer.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
