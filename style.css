@@ -62,3 +62,29 @@ body, html {
 		scroll-behavior: auto;
 	}
 }
+
+
+.asddas{
+    color:red;
+    text-align: center;
+}
+
+
+.email{
+    color: #f4623a;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.aaa{
+    display: none;
+    background:white;
+    position: absolute;
+
+}
+
+.card-body:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

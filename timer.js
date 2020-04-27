@@ -71,6 +71,41 @@ $(function () {
   });
 });
 
-$(window).on('beforeunload', function(){
-  $(window).scrollTop(0);
+  
+// scroll page to top
+// $(window).on('beforeunload', function(){
+//   $(window).scrollTop(0);
+// });
+
+
+// $( ".qwe" ).hover(
+//   function() {
+//     $(this).append($("<h2> HELOO</h2>"));
+//     $('.qwe').css('opacity', '0.5');
+//   }, function() {
+//     $(this).find("h2").remove();
+// }, 
+// );
+
+
+// $('.qwe').hover(
+//   function () { $(this).css('opacity', '0.5') },
+//   function () { $(this).css('opacity', '') },
+// )
+
+// $( ".qwe" ).hover(
+//   function() {
+//     $(this).append($("<span class='asddas'> TEEEEESSSTTTTTTT</span>"));
+//     $(this).css('opacity', '0.5');
+//   }, function() {
+//     $(this).find("span").last().remove();
+//     // $(this).find('.test').remove();
+//     $(this).css('opacity', '');
+//   }
+// );
+
+$("img").hover( function(){
+  $(".aaa").show().offset($(this).offset());
+}, function(){
+  $(".aaa").hide();
 });
